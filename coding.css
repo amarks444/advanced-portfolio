@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0d1117;
+    color:white;
+}
+
+.coding{
+    min-height:100vh;
+    padding:60px 8%;
+}
+
+.title{
+    text-align:center;
+    font-size:4rem;
+    color:#00adb5;
+}
+
+.subtitle{
+    text-align:center;
+    font-size:1.3rem;
+    margin-top:10px;
+    color:#ccc;
+}
+
+.stats-box{
+    width:300px;
+    margin:40px auto;
+    text-align:center;
+    background:#161b22;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(0,173,181,.3);
+}
+
+.stats-box h2{
+    font-size:4rem;
+    color:#00adb5;
+}
+
+.stats-box span{
+    font-size:1.2rem;
+}
+
+.profiles-container{
+    margin-top:50px;
+
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+}
+
+.profile-card{
+    background:#161b22;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+
+    transition:0.4s;
+}
+
+.profile-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 25px rgba(0,173,181,.4);
+}
+
+.profile-card i{
+    font-size:3rem;
+    color:#00adb5;
+}
+
+.profile-card h2{
+    margin-top:20px;
+    font-size:1.8rem;
+}
+
+.profile-card p{
+    margin:15px 0;
+    color:#ccc;
+    min-height:50px;
+}
+
+.profile-card a{
+    display:inline-block;
+    padding:10px 22px;
+    border-radius:30px;
+    background:#00adb5;
+    color:black;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.profile-card a:hover{
+    background:white;
+}
+
+@media(max-width:768px){
+
+    .title{
+        font-size:2.8rem;
+    }
+
+    .stats-box{
+        width:100%;
+    }
+}
