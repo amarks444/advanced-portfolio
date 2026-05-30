@@ -60,8 +60,9 @@ const typingText = document.querySelector('.typing-text');
 
 const professions = [
     'Java Full Stack Developer',
+    'MERN Stack Developer',
     'Software Engineer',
-    'UPSC Aspirant',
+    'Ex- UPSC CSE Aspirant',
     'Problem Solver',
     'Tech Enthusiast'
 ];
